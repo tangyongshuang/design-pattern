@@ -1,0 +1,11 @@
+package com.anhe.no2factorymethod;
+
+/**
+ * Created by Albert.Tang on 2019/3/11 6:40 PM.
+ */
+public class ProductB extends Product {
+    @Override
+    public void methodDiff() {
+        System.out.println("这是产品B");
+    }
+}
